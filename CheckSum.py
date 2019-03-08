@@ -12,5 +12,5 @@ def checkio(data):
             res += all_mappings[x]
         else:
             res += int(x)
-    print(x)
-    return [x % 10, x]
+    print(res)
+    return [res % 10, res]
